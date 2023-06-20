@@ -22,7 +22,7 @@ air_pollution_current.py:
 - requires Texas_Counties_Centroid_Map.csv in S3 bucket for reading coordinates
   
 Air_Pollution_All_Data.py:
-- requires a .csv in S3 buket and run previously air_pollution_current.py (data to be found in the Data folder)
+- requires a air_polution_cleaned_history_new.csv in S3 buket and run previously air_pollution_current.py (data to be found in the Data folder)
 - concatenate the data from 
   
 Air_Pollution_Aggregated.py:
