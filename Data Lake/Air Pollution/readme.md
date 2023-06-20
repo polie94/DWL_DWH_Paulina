@@ -3,9 +3,11 @@ All code authored by: Paulina Zal
 To run this pieces of code you need to log in AWS account class 40209, user ...
 
 The respective lambda functions (python code in Github:lambda name):<br>
-  - air_pollution_current.py:current_airpollution<br>
-  - Air_Pollution_All_Data.py:air_polution_all_<br>
-  - Air_Pollution_Aggregated.py:air_pollution_aggregated<br>
+  - air_pollution_current.py:Current_Airpollution<br>
+  - Air_Pollution_All_Data.py:Air_Pollution_All_Data_<br>
+  - Air_Pollution_Aggregated.py:Air_Pollution_Aggregated<br>
+
+Every Lambda function has a layer containing: pandas, sqlalchemy==1.4.46, psycopg2-binary,pytz 
 
 File History_with_class.py:
 - run locally
