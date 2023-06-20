@@ -83,6 +83,7 @@ def lambda_handler(event, context):
 
     df=read_rds(RDS_USER_IN, RDS_PASSWORD_IN, RDS_HOST_IN, RDS_DB_IN,query_in)
     star=df[["Date"]]
+# add date relevant information
     star["Date"] = pd.to_datetime(star["Date"])
     star["weekday"]=star["Date"].dt.dayofweek
     star["day"]=star["Date"].dt.day
