@@ -77,10 +77,12 @@ def lambda_handler(event, context):
     
     tex_counties=read_s3_bucket(S3_BUCKET_NAME,"Texas_Counties_Centroid_Map.csv")
     us_cities=read_s3_bucket(S3_BUCKET_NAME,"uscities.csv")
+    # select only information for Texas
     data_tx=us_cities[us_cities["state_name"]=="Texas"]
     #add county info
     df=data_tx.merge(tex_counties, left_on="county_name",right_on="CNTY_NM") 
     df=df[['city', 'state_name','county_name', 'lat', 'lng','X (Lat)', 'Y (Long)']]
+    # 'X (Lat)', 'Y (Long)' are counties coordinates. naming due to tableau visualization 
     df=df.rename(columns={'X (Lat)':"lat_air", 'Y (Long)':"lng_air", 'city':'city_county'})
     #add index
     df["id_city"]=df["city_county"]
