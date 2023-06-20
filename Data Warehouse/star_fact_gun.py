@@ -88,20 +88,24 @@ def lambda_handler(event, context):
     
     tex_counties=read_s3_bucket(S3_BUCKET_NAME,"Texas_Counties_Centroid_Map.csv")
     us_cities=read_s3_bucket(S3_BUCKET_NAME,"uscities.csv")
+# select from all US-cities only cities in Texas
     data_tx=us_cities[us_cities["state_name"]=="Texas"]
 
 
     query_in="select * from gun_violance_texas"
 
     df=read_rds(RDS_USER_IN, RDS_PASSWORD_IN, RDS_HOST_IN, RDS_DB_IN,query_in)
+#add columns in order to add information about county_name - no information about in gun_violance_texas table
     df=df.rename(columns={"Incident_Id":'incident_id',"Incident Date": 'incident date',"city-county":'county_city'})
     df=df.merge(data_tx,left_on="county_city", right_on="city")
     df=df[['incident_id', 'incident date', 'county_city', 'killed', 'injured',"county_name"]]
     df["incident date"]=df["incident date"].astype(str)
     print(df)
+#add foreign keys
     df["id_county_date"]=df[["county_name", "incident date"]].apply("-".join, axis=1)
     df["id_date"]=df["incident date"]
     df["id_city"]=df["county_city"]
+#select relevant information
     df=df[["id_county_date","id_date","id_city",'incident_id', 'killed', 'injured']]  
     #df=df.rename(columns={"# killed":"killed",'# injured':'injured','incident id':'incident_id'})
     query_out='''CREATE TABLE IF NOT EXISTS star_fact_gun (id_county_date varchar, id_date date, id_city varchar, incident_id bigint primary key, killed int , injured int);'''
