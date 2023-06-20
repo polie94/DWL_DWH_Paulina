@@ -20,3 +20,7 @@ star_fact_gun.py
 
 ### final table
 Authored by: Paulina Zal
+
+final_table.py:
+- lambda function : Final_table
+- combine all tables into one, as in database part 
