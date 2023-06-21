@@ -21,7 +21,7 @@ def incidents(x):
         return x
 ##read data
 gun=pd.read_csv("Gun_Renamed.csv")
-cities=pd.read_csv("cities.csv")
+cities=pd.read_csv("uscities.csv")
 weather=pd.read_csv("weather_data.csv")
 air=pd.read_csv("air_new.csv")
 air.county=air.county.apply(lambda x: x.strip())
