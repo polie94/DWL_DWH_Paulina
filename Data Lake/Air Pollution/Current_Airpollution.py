@@ -89,5 +89,5 @@ def lambda_handler(event, context):
     write_rds(df=df_airpolution)
     return {
             'statusCode': 200,
-            'body': json.dumps("hello")
+            'body': json.dumps("current")
         }
