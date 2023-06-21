@@ -3,8 +3,8 @@ All code authored by: Paulina Zal
 To run this pieces of code you need to log in AWS account class 40209, user ...
 
 The respective lambda functions (python code in Github:lambda name):<br>
-  - air_pollution_current.py:Current_Airpollution<br>
-  - Air_Pollution_All_Data.py:Air_Pollution_All_Data_<br>
+  - Current_Airpollution.py:Current_Airpollution<br>
+  - Air_Pollution_All_Data_.py:Air_Pollution_All_Data_<br>
   - Air_Pollution_Aggregated.py:Air_Pollution_Aggregated<br>
 
 Every Lambda function has a layer containing: pandas, sqlalchemy==1.4.46, psycopg2-binary,pytz 
