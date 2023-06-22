@@ -51,16 +51,18 @@ def read_api(api_key, lat, lon, county):
     query = {'lat' : lat, 'lon': lon,'appid': API_KEY }
     print( "query ", query )
     sleep(1.1)
+    #get the current measurements for given coordinates
     response = requests.get('http://api.openweathermap.org/data/2.5/air_pollution',params=query)
     dictionary_temp=dict()
     json_string=response.json()
     print(json_string)
     print(json_string)
+    #flatten the JSON and create dictionaries for location
     aqi=json_string['list'][0]["main"]
-   #print(aqi, type(aqi))
     conditions=json_string['list'][0]["components"]
     unix_dt=json_string['list'][0]["dt"]
     location={"lat":lat,"lon":lon, "county":county}
+    #expand dictionary
     dictionary_temp.update(location)
     dictionary_temp.update(aqi)
     dictionary_temp.update(conditions)
@@ -81,13 +83,14 @@ def lambda_handler(event, context):
     location=read_s3_bucket(S3_BUCKET_NAME,OBJECT_KEY)
     #location=location[0:2]
     dictionaries=[]
+    #iterate over locations and add to common directory
     for index, row in location.iterrows():
        position = read_api(API_KEY,row["lat_round"],row["lng_round"],row["CNTY_NM"])
        dictionaries.append(position)
-    df_airpolution=pd.DataFrame(dictionaries)
+    df_airpolution=pd.DataFrame(dictionaries) #save as pandas df
     print(df_airpolution)
     write_rds(df=df_airpolution)
     return {
             'statusCode': 200,
-            'body': json.dumps("current")
+            'body': json.dumps("current data")
         }
