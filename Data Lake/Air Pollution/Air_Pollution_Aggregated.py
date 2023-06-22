@@ -58,6 +58,7 @@ class RDSClass:
         cursor.execute("Delete from airpolution_aggregated")
         print(8)
         connection.commit()
+        #from https://naysan.ca/2020/08/02/pandas-to-postgresql-using-psycopg2-mogrify-then-execute/
         tuples = [tuple(x) for x in df.to_numpy()]
      # insert to rds
     # Comma-separated dataframe columns
