@@ -54,14 +54,14 @@ class RDSClass:
 
         cursor.execute(sql)
         connection.commit()
-
+        #delete from table
         cursor.execute("Delete from airpolution_aggregated")
         print(8)
         connection.commit()
         tuples = [tuple(x) for x in df.to_numpy()]
-      
+     # insert to rds
     # Comma-separated dataframe columns
-        #cols = ','.join(list(df.columns))
+
         cols = ','.join(['lat', 'lon', 'county', 'aqi', 'co', 'no', 'no2', 'o3', 'so2', 'pm2_5', 'pm10', 'nh3',  '"Date"', '"desc"'])
     # SQL quert to execute
         #cursor = connection.cursor()
@@ -94,8 +94,8 @@ def aqi_index_desc(x):
     
 def aggregate(df):
     agg=df[['lat', 'lon', 'county', 'Date', "aqi" ,'co', 'no', 'no2', 'o3', 'so2','pm2_5', 'pm10', 'nh3']]
-    agg=agg.groupby(['lat', 'lon', 'county', 'Date']).mean().reset_index()
-    print(1)
+    agg=agg.groupby(['lat', 'lon', 'county', 'Date']).mean().reset_index() # calculate average of all measurements 
+    # round measurements
     agg["aqi"]=agg.aqi.apply(lambda x :int(round(x,0)))
     agg["co"]=agg.co.apply(lambda x :round(x,2))
     agg["no"]=agg.no.apply(lambda x :round(x,2))
@@ -105,8 +105,6 @@ def aggregate(df):
     agg["pm2_5"]=agg.pm2_5.apply(lambda x :round(x,2))
     agg["pm10"]=agg.pm10.apply(lambda x :round(x,2))
     agg["nh3"]=agg.nh3.apply(lambda x :round(x,2))
-        
-    print(2)
     agg["desc"] = agg.aqi.apply(lambda x: aqi_index_desc(x))
     print(3)
     #agg["Hour"]=datetime.time(00,00)
@@ -115,6 +113,7 @@ def aggregate(df):
     print(5)
     #agg["unix_dt"]=agg.Datetime.apply(lambda x:x.timestamp() )
     print(6)
+    #select columns
     agg=agg[['lat', 'lon', 'county', 'aqi', 'co', 'no', 'no2', 'o3', 'so2', 'pm2_5', 'pm10', 'nh3',  'Date', 'desc']]
     return agg
     
@@ -129,12 +128,13 @@ def lambda_handler(event, context):
     RDS=RDSClass(RDS_USER,RDS_PASSWORD,RDS_HOST,RDS_DB)
     data_in= RDS.read_rds()
 
-    agg=aggregate(data_in)
+    agg=aggregate(data_in) #aggregate all data
+    #due to consistancy select data before today
     today=datetime.date.today()
     agg=agg[agg["Date"]<today]
 
     RDS.write_rds(agg) 
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda!')
+        'body': json.dumps('Aggregate')
     }
