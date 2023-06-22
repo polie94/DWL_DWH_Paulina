@@ -32,9 +32,10 @@ def scraping():
     
     """ Webscraping function responsible for downloading the data from www.gunviolancearchieve.org
         The function uses Selenium and Headless Chrome driver. The function needs to wait until the page is loaded and
-        download button is available, after wards the data contained in thre csv file can be downloaded.
-        In the end of the function the postgresshook is called. The data is saved into AWS RDS. 
-        The credentials are to be specified  in connection panel in GUI of Apache Airflow
+        download button is available after wards the data contained in the CSV file can be downloaded.
+        At the end of the function, the postgresshook is called. The data is saved into AWS RDS. 
+        The credentials are to be specified in the connection panel in the GUI of Apache Airflow.
+        Due to the change of the webpage at the end of May, the scraper was adjusted and summarized some columns into the old structure.
     """
     my_ua = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"  ## gepüfft auf https://www.whatsmyua.info/
     link = "https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv" 
