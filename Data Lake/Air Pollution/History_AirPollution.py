@@ -48,6 +48,10 @@ class OpenWeatherMap:
         self.API_KEY = API_KEY
     
     def read_api(self, lat, lon, county):
+      """ read data from API for a given county, the response from API for a given location between start 
+      and end timestamps return a list with JSON for every hour in this time range. This needs to be flattened out. 
+      The data are then stored in a common list of dictionaries"""
+      
         query = {'lat': lat, 'lon': lon, 'appid': self.API_KEY, "start": "1640991600", "end": "1681116257"}
         sleep(1.1)
         dictionaries = []
@@ -70,6 +74,9 @@ class OpenWeatherMap:
         return dictionaries
     
     def call_api(self, location):
+      """ iterate over counties coordinates and get data using the function read_api
+          and write data to pandas data frame """
+      
         dictionaries = []
         for index, row in location.iterrows():
             position = self.read_api(row["lat_round"], row["lng_round"], row["CNTY_NM"])
@@ -101,11 +108,10 @@ def main():
     
    S3Class=S3Client( ACCESS_KEY_ID, SECRET_ACCESS_KEY, SESSION_TOKEN,S3_BUCKET_NAME)
    OpenWeatherMapClass= OpenWeatherMap(API_KEY)
-   location=S3Class.read_s3_bucket(OBJECT_KEY)
-    #location=location[0:2]
-   data=OpenWeatherMapClass.call_api(location)
-    #df=OpenWeatherMapClass.filter_time(data)
-   S3Class.write_s3(data,"air_polution_cleaned_history_new.csv")
+   location=S3Class.read_s3_bucket(OBJECT_KEY) # read coordinates of all counties
+   data=OpenWeatherMapClass.call_api(location) # send requests to API for coordinates
+   #df=OpenWeatherMapClass.filter_time(data) #not used
+   S3Class.write_s3(data,"air_polution_cleaned_history_new.csv")  # write as CSV file in an S3 bucket
    print(data)
     
 if __name__ == "__main__":
