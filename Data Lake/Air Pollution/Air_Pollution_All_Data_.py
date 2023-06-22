@@ -70,6 +70,7 @@ class RDSClass:
         print(8)
         connection.commit()
         print(9)
+        # delete all data from table
         sql_del = '''DELETE FROM airpolution_all_cleaned;'''
         print(10)
         cursor.execute(sql_del)
@@ -77,20 +78,23 @@ class RDSClass:
         connection.commit()
         print(12)
         print(df)
+        #append all data to table
         df.to_sql("airpolution_all_cleaned", db_sqlalchemy,  if_exists= 'append', index=False)
         print(13)
         conn_sqlalchemy.invalidate()
         db_sqlalchemy.dispose()
         connection.close()
-        return "hier"
+        return "saving done"
 
 
 def clean_data(df):
+    #convert time zone
     df["Datetime"]=pd.to_datetime( df["unix_dt"],unit="s",utc=True)
     df["Datetime"]=df.Datetime.dt.tz_convert('America/Chicago')
     df["Datetime"]=df.Datetime.apply(lambda x : x.replace(tzinfo=None) )
+    #delete empty spaces in the end of string
     df["county"]=df.county.apply(lambda x : x.strip() )
-
+    #create columns
     df['Date'] = df['Datetime'].dt.date
     df['Hour'] = df['Datetime'].dt.time
     df["Hour"] = df["Hour"].apply(lambda x:  datetime.time(x.hour,00))
@@ -100,7 +104,7 @@ def lambda_handler(event, context):
     
     S3_BUCKET_NAME = os.environ["S3_BUCKET_NAME"]
     OBJECT_KEY = os.environ["OBJECT_KEY"]
-##rds
+
     RDS_USER = os.environ["RDS_USER"]
     RDS_PASSWORD = os.environ["RDS_PASSWORD"]
     RDS_HOST=os.environ["RDS_HOST"]
@@ -109,16 +113,14 @@ def lambda_handler(event, context):
     S3=S3ClientClass(S3_BUCKET_NAME,OBJECT_KEY)
     RDS=RDSClass(RDS_USER,RDS_PASSWORD,RDS_HOST)
     
-    data_history=S3.read_s3_bucket()
-   # data_history=data_history[data_history["Date"]>='2022-01-01']
-    
+    data_history=S3.read_s3_bucket() # read history from S3 bucket
     print("history done")
-    data_current=RDS.read_rds(RDS_DB)
+    data_current=RDS.read_rds(RDS_DB) #read current data from rds
     print("current done")
     print(data_history.county.nunique())
-    data=pd.concat([data_history,data_current],axis=0)
+    data=pd.concat([data_history,data_current],axis=0)#concat history and current data
     print("concat done")
-    data=clean_data(data)
+    data=clean_data(data) # clean data
     print("cleaning done")
    # data=data[data["Date"]>='2022-01-01']
 
@@ -128,6 +130,6 @@ def lambda_handler(event, context):
     print(data.info())
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda!')
+        'body': json.dumps('All data')
     }
 
