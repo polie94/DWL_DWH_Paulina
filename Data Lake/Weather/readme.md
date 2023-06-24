@@ -1,6 +1,6 @@
 All code authored by: Mirko Dimitrijevic
 
-To run this pieces of code you need to log in AWS account class 40209, user ...
+To run this pieces of code you need to log in AWS account class 40209, User: voclabs/user2428376=Dimitrijevic,_Mirko, Account ID: 550319664291
 
 The Lambda function in the DailyWeatherAPI.py file has a layer containing: pandas, sqlalchemy==1.4.46
 
