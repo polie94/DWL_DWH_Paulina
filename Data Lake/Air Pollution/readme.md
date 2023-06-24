@@ -9,14 +9,15 @@ The respective lambda functions (python code in Github:lambda name):<br>
 
 Every Lambda function has a layer containing: pandas, sqlalchemy==1.4.46, psycopg2-binary,pytz 
 
-File History_with_class.py:
+File History_AirPollution.py:
 - requires Texas_Counties_Centroid_Map.csv in S3 bucket for reading coordinates
 - run locally
 - collect and insert historical data from api into S3 bucket
-- credentials configurated in file config.py
+- credentials configurated in file config.py ( ###placeholder should be changed with credentials)
 
 The order of running code: 
-history_with_class.py > air_pollution_current.py > Air_Pollution_All_Data.py >Air_Pollution_Aggregated.py
+
+History_AirPollution.py > air_pollution_current.py > Air_Pollution_All_Data.py >Air_Pollution_Aggregated.py
 
 air_pollution_current.py:
 - the new data is collected from api
