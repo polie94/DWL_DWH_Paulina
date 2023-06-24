@@ -13,7 +13,7 @@ File History_AirPollution.py:
 - requires Texas_Counties_Centroid_Map.csv in S3 bucket for reading coordinates
 - run locally
 - collect and insert historical data from api into S3 bucket
-- credentials configurated in file config.py ( ###placeholder should be changed with credentials)
+- credentials configurated in file config.py ( ###placeholder should be changed with credentials to an S3 bucket)
 
 The order of running code: 
 
