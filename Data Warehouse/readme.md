@@ -15,8 +15,18 @@ star_fact_gun.py
 - lambda function star_fact_gun
 - requires Texas_Counties_Centroid_Map.csv and uscities.csv
 
-  ### Mirkos tables
+### star_dim_air, star_dim_weather
+authored by: Mirko Dimitrijevic
 
+All files are run after the processes in the Data Lake are done:
+
+star_dim_air.py
+- lambda function star_dim_air
+- requires a layer with pandas, psycopg2-binary and sqlalchemy==1.4.46
+
+star_dim_weather.py
+- lambda function star_dim_weather
+- requires a layer with pandas, psycopg2-binary and sqlalchemy==1.4.46
 
 ### final table
 Authored by: Paulina Zal
