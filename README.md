@@ -1,4 +1,4 @@
-# DL-DWH_Project
+# Repository of project in Data Lake and Data Warehouse
 This is the repository where you can find code written by Paulina Zal and Mirko Dimitrijevic. <br>
 
 
