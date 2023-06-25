@@ -1,4 +1,4 @@
-![image](https://github.com/polie94/DL-DWH_Project/assets/40672835/48ffbf03-935a-4661-bd65-0439fa45838a)### star_dim_date, star_dim_city, star_fact_gun
+### star_dim_date, star_dim_city, star_fact_gun
 authored by: Paulina Zal
 Here the data from data lake are transformed to  DWH built in star schema.
 All files are run after the processes in the Data Lake are done:
