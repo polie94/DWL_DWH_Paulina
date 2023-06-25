@@ -23,13 +23,16 @@ air_pollution_current.py:
 - the new data is collected from api
 - requires Texas_Counties_Centroid_Map.csv in S3 bucket for reading coordinates
 - credentials configurated in Environment variables for lambda function
+- requires a layer with pandas, psycopg2-binary and sqlalchemy==1.4.46
    
 Air_Pollution_All_Data.py:
 - requires a air_polution_cleaned_history_new.csv in S3 buket and run previously air_pollution_current.py (data to be found in the Data folder)
 - concatenate the data from
 - credentials configurated in Environment variables for lambda function
+- requires a layer with pandas, psycopg2-binary and sqlalchemy==1.4.46
   
 Air_Pollution_Aggregated.py:
 - requires previous run of Air_Pollution_All_Data.py
 - aggregates the data set to one datapoint per day and calculates average value of measurements
-- credentials configurated in Environment variables for lambda function 
+- credentials configurated in Environment variables for lambda function
+- requires a layer with pandas, psycopg2-binary and sqlalchemy==1.4.46
