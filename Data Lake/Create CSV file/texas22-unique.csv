@@ -1,0 +1,387 @@
+index,incident id,date,state,county_city,address,# killed,# injured,operations,city,state_id,state_name,county,lat,lng
+10723,2203909,2022-01-01,Texas,Houston,3322 Yellowstone Blvd,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+6150,2204129,2022-01-01,Texas,Laredo,4500 block of Emma Ln,0,1,,Laredo,TX,Texas,Webb,27.5625,-99.4874
+6141,2204583,2022-01-05,Texas,Granbury,735 W US Hwy 377,0,2,,Granbury,TX,Texas,Hood,32.4475,-97.7702
+6142,2204598,2022-01-05,Texas,San Antonio,4611 E Houston St,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+3314,2204803,2022-01-01,Texas,Mcallen,,1,0,,,,,Hidalgo,,
+6123,2208321,2022-01-10,Texas,Lubbock,7007 University Ave,0,1,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+17617,2208945,2022-01-11,Texas,Dallas,3200 block of Reynolds Ave,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17616,2209521,2022-01-11,Texas,Houston,Markwood Ln and Park Manor St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17608,2210422,2022-01-13,Texas,Lubbock,4909 9th St,1,0,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+17604,2211916,2022-01-15,Texas,Harris (county),,1,0,,,,,Harris,29.786,-95.3885
+6113,2211998,2022-01-15,Texas,Houston,3600 Crandon St,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17603,2212106,2022-01-15,Texas,Fort Worth,700 block of Ravine Rd,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+10693,2213707,2022-01-17,Texas,Houston,5900 Selinsky Rd,0,3,,Houston,TX,Texas,Harris,29.786,-95.3885
+17602,2214075,2022-01-15,Texas,Wilsey,US-60 and CR 5,2,0,,,,,Parmer,,
+17587,2214963,2022-01-18,Texas,Crosby,4509 Wolcek Rd,3,0,,Crosby,TX,Texas,Harris,29.9146,-95.0591
+17583,2215132,2022-01-18,Texas,Diboll,1000 block of Cypress,1,0,,Diboll,TX,Texas,Angelina,31.1873,-94.7833
+17584,2215330,2022-01-18,Texas,Houston,4701 Anderson Rd,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+12277,2215351,2022-01-16,Texas,Del Rio,400 block of San Juan St,1,0,,Del Rio,TX,Texas,Val Verde,29.3708,-100.8801
+17596,2215844,2022-01-16,Texas,Bovina,US-60,2,0,,Bovina,TX,Texas,Parmer,34.5156,-102.8848
+10687,2216245,2022-01-19,Texas,San Antonio,200 block of Moraima St,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17578,2218235,2022-01-22,Texas,Mesquite,2800 block of Clay Mathis Rd,1,0,,Mesquite,TX,Texas,Dallas,32.7602,-96.5865
+17571,2219415,2022-01-24,Texas,North Richland Hills,5100 block of Gibbons Dr,2,0,,North Richland Hills,TX,Texas,Tarrant,32.8604,-97.218
+6085,2220254,2022-01-26,Texas,Houston,8800 block of Katy Fwy,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+12269,2222923,2022-01-29,Texas,Eustace,Co Rd 2911,1,0,,Eustace,TX,Texas,Henderson,32.3076,-96.0138
+133,2223090,2022-01-30,Texas,San Antonio,3536 West Ave,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+10665,2223096,2022-01-30,Texas,Houston,10555 Fondren Rd,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17549,2223593,2022-01-30,Texas,Waco,1000 block of Walker St,2,0,,Waco,TX,Texas,McLennan,31.5599,-97.1882
+6072,2224558,2022-01-31,Texas,Fort Worth,4425 E Lancaster Ave,0,1,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+3275,2226204,2022-02-03,Texas,San Antonio,1514 Upland Rd,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+12266,2226545,2022-02-03,Texas,Houston,12212 Tidwell Rd,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+6061,2226801,2022-02-04,Texas,Houston,1624 Holman St,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17539,2226957,2022-02-03,Texas,Willis,W Stewart St and Holland St,1,0,,Willis,TX,Texas,Montgomery,30.4314,-95.4831
+12262,2227058,2022-02-05,Texas,Corsicana,2919 W 2nd Ave,8,0,,Corsicana,TX,Texas,Navarro,32.0824,-96.4665
+3272,2227615,2022-02-05,Texas,Port Arthur,1100 block of 8th Ave,1,0,,Port Arthur,TX,Texas,Jefferson,29.8554,-93.9264
+3270,2228803,2022-02-07,Texas,Brackettville,63 McClernand Rd,1,0,,Brackettville,TX,Texas,Kinney,29.3181,-100.4109
+10653,2230026,2022-02-08,Texas,Houston,9800 block of Southwest Fwy,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+3268,2230367,2022-02-08,Texas,Garland,300 block of E Vista Dr,1,0,,Garland,TX,Texas,Dallas,32.91,-96.6304
+6048,2230649,2022-02-09,Texas,San Antonio,1300 block of Rigsby Ave,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+6041,2232332,2022-02-10,Texas,Houston,14835 Eastex Fwy,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17505,2232419,2022-02-12,Texas,Fort Worth,1100 block of E Baltimore Ave,2,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+17506,2233362,2022-02-12,Texas,Marshall,615 Valleloma St,1,0,,Marshall,TX,Texas,Harrison,32.537,-94.3515
+3257,2234293,2022-02-14,Texas,Houston,2900 Woodridge Dr,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+6033,2234510,2022-02-14,Texas,Fort Worth,5720 Meadowbrook Dr,0,1,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+6028,2234848,2022-02-15,Texas,Amarillo,3806 6th Ave,1,1,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+10638,2235787,2022-02-16,Texas,Haltom City,3500 block of Eastridge Dr,0,1,,Haltom City,TX,Texas,Tarrant,32.8176,-97.2707
+10654,2236760,2022-02-07,Texas,Sweetwater,,0,1,,Sweetwater,TX,Texas,Nolan,32.4692,-100.4092
+10632,2236845,2022-02-18,Texas,Houston,600 block of Nottingham Oaks Trl,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17481,2237141,2022-02-19,Texas,Corpus Christi,2200 block of Bolivar St,1,0,,Corpus Christi,TX,Texas,Nueces,27.7254,-97.3767
+12253,2237226,2022-02-18,Texas,San Antonio,100 block of Dublin Ave,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+3253,2237971,2022-02-19,Texas,Robstown,900 block of Mynier St,1,0,,Robstown,TX,Texas,Nueces,27.794,-97.6692
+6010,2238669,2022-02-20,Texas,San Antonio,100 block of S Calaveras St,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17476,2238756,2022-02-20,Texas,Waco,700 block of Ruby Ave,1,0,,Waco,TX,Texas,McLennan,31.5599,-97.1882
+6013,2238905,2022-02-19,Texas,El Paso,11600 block of Dyer St,0,1,,El Paso,TX,Texas,El Paso,31.8476,-106.43
+3251,2239005,2022-02-21,Texas,San Antonio,Blanco Rd and W Mariposa Dr,2,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17471,2239470,2022-02-21,Texas,Dallas,7272 Marvin D Love Fwy,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17468,2240647,2022-02-23,Texas,Amarillo,3204 Mesa Verde Dr,1,0,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+12248,2241752,2022-02-24,Texas,Granbury,306 Kathy Lane,4,0,,Granbury,TX,Texas,Hood,32.4475,-97.7702
+17450,2245739,2022-03-02,Texas,Austin,7402 Lazy Creek Dr,1,0,,Austin,TX,Texas,Travis,30.3005,-97.7522
+17445,2245826,2022-03-03,Texas,Midland,5501 Sherwood Dr,1,0,,Midland,TX,Texas,Midland,32.0243,-102.1147
+5989,2246083,2022-03-02,Texas,Denton,2100 Spencer Rd,0,1,,Denton,TX,Texas,Denton,33.2175,-97.1418
+3240,2247352,2022-03-05,Texas,Waco,727 Austin Ave,1,1,,Waco,TX,Texas,McLennan,31.5599,-97.1882
+17423,2249807,2022-03-08,Texas,Houston,1855 Wirt Rd,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+5974,2250512,2022-03-09,Texas,San Antonio,8400 N Loop 1604 W,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+6086,2251056,2022-01-25,Texas,Lewisville,190 E Round Grove Rd,0,1,,Lewisville,TX,Texas,Denton,33.0454,-96.9815
+1114,2251718,2022-03-11,Texas,Dallas,3500 block of Munger Ave,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+12236,2252114,2022-03-12,Texas,Killeen,400 block of W Vega Ln,2,1,,Killeen,TX,Texas,Bell,31.0753,-97.7297
+17409,2253068,2022-03-12,Texas,Fort Worth (Watauga),5400 block of Caribou Ridge Dr,2,0,,,,,Tarrant,32.7817,-97.3474
+17399,2253120,2022-03-13,Texas,Dallas,1200 block of Diceman Ave,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17402,2253668,2022-03-13,Texas,San Antonio,7000 block of Fossil Banks,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+12233,2254521,2022-03-15,Texas,Lubbock,3600 block of Lehigh St,1,0,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+17385,2255614,2022-03-17,Texas,Houston,200 block of N Loop E Fwy,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17390,2255639,2022-03-16,Texas,Houston,2502 W Little York Rd,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+6927,2256026,2022-03-17,Texas,San Angelo,900 block of Crenshaw St,1,0,,San Angelo,TX,Texas,Tom Green,31.4424,-100.4504
+17373,2258224,2022-03-20,Texas,Houston,2955 S Sam Houston Pkwy E,1,3,,Houston,TX,Texas,Harris,29.786,-95.3885
+17371,2258463,2022-03-20,Texas,Houston,902 Woolworth St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17365,2262154,2022-03-24,Texas,Killeen,611 Brook Dr,2,0,,Killeen,TX,Texas,Bell,31.0753,-97.7297
+5933,2263282,2022-03-25,Texas,Texarkana,112A Oaklawn Dr,0,1,,Texarkana,TX,Texas,Bowie,33.45,-94.0847
+17360,2263491,2022-03-25,Texas,Marietta,Stevens Dr,2,0,,Marietta,TX,Texas,Cass,33.1735,-94.5425
+3218,2263513,2022-03-25,Texas,Port Arthur,1600 block of Main Ave,1,0,,Port Arthur,TX,Texas,Jefferson,29.8554,-93.9264
+5932,2263620,2022-03-25,Texas,Houston,1919 Briar Oaks Ln,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+114,2264686,2022-03-28,Texas,Dallas,9500 block of Timberleaf Dr,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17353,2265082,2022-03-27,Texas,Beaumont,14000 block of Kolbs Corner,1,0,,Beaumont,TX,Texas,Jefferson,30.0849,-94.1451
+10576,2265507,2022-03-28,Texas,Fort Worth,5000 block of Vinson St,0,1,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+5920,2266326,2022-03-30,Texas,San Antonio,4803 Manitou Dr,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+3212,2267050,2022-03-31,Texas,Houston,6501 Chimney Rock Rd,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17332,2267983,2022-04-01,Texas,San Antonio,5627 Culebra Rd,1,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17343,2268409,2022-03-29,Texas,Fredericksburg,300 block of W San Antonio St,1,0,,Fredericksburg,TX,Texas,Gillespie,30.266,-98.8751
+10572,2268726,2022-03-31,Texas,Greenville,3800 block of FM118,0,1,,Greenville,TX,Texas,Hunt,33.1116,-96.1099
+5903,2270510,2022-04-04,Texas,Lubbock,3400 block of 33rd St,0,1,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+3203,2271885,2022-04-06,Texas,Burkburnett,600 block of Glendale St,1,0,,Burkburnett,TX,Texas,Wichita,34.0746,-98.5672
+17321,2271911,2022-04-04,Texas,Dallas,2500 block of Keeler St,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+3201,2273462,2022-04-07,Texas,Houston,3600 block of Rosewood St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+3200,2273983,2022-04-07,Texas,Houston,3600 Rosewood St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+10550,2274246,2022-04-09,Texas,Texas City,1900 block of 13th Ave N,0,2,,Texas City,TX,Texas,Galveston,29.4154,-94.9682
+3197,2275341,2022-04-09,Texas,Waco,1500 block of N 11th St,1,0,,Waco,TX,Texas,McLennan,31.5599,-97.1882
+17296,2277021,2022-04-11,Texas,Houston,18220 Tomball Pkwy,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17295,2277754,2022-04-12,Texas,Fort Worth,3828 Stalcup Rd,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+3193,2277765,2022-04-10,Texas,El Paso,14400 block of Montwood Dr,1,0,,El Paso,TX,Texas,El Paso,31.8476,-106.43
+3187,2277989,2022-04-13,Texas,Houston,2400 block of Milby St,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17287,2279266,2022-04-14,Texas,San Antonio,5600 block of Stonybrook Dr,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5864,2282916,2022-04-18,Texas,Fort Worth,3144 NW 33rd St,0,1,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+3179,2283436,2022-04-19,Texas,Round Rock,1600 block of Gattis School Rd,1,2,,Round Rock,TX,Texas,Williamson,30.527,-97.6642
+17263,2285263,2022-04-22,Texas,Humble,3500 block of Atascocita Plum Ct,1,0,,Humble,TX,Texas,Harris,29.9921,-95.2655
+6913,2285521,2022-04-23,Texas,Houston,3525 S Sam Houston Pkwy E,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17250,2286217,2022-04-24,Texas,Fort Worth,3800 block of Altamesa Blvd,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+17261,2287167,2022-04-22,Texas,Austin,6400 block of Garden View Dr,2,0,,Austin,TX,Texas,Travis,30.3005,-97.7522
+17235,2290357,2022-04-29,Texas,Humble,2400 block of Canton Trace,1,0,,Humble,TX,Texas,Harris,29.9921,-95.2655
+5833,2292290,2022-05-01,Texas,Dallas,3700 block of McNeil St,1,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+3169,2292748,2022-05-02,Texas,Katy,22300 block of Guston Hall Ln,1,0,,Katy,TX,Texas,Harris,29.7905,-95.8353
+17233,2295640,2022-04-30,Texas,Austin,7610 Cameron Rd,1,0,,Austin,TX,Texas,Travis,30.3005,-97.7522
+17213,2295723,2022-05-05,Texas,Dallas,10200 block of N Walton Walker Blvd,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+12191,2295738,2022-05-05,Texas,Dallas,2500 block of Fatima Ave,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17207,2295982,2022-05-06,Texas,Houston,9545 Ella Lee Ln,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17205,2296808,2022-05-07,Texas,Garland,800 block of Magnolia Dr,2,2,,Garland,TX,Texas,Dallas,32.91,-96.6304
+10499,2297655,2022-05-08,Texas,Dallas,4000 block of S Polk St,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17193,2298817,2022-05-10,Texas,San Antonio,5125 War Horse Dr,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+3156,2300193,2022-05-11,Texas,Waco,3501 Alta Vista Dr,1,0,,Waco,TX,Texas,McLennan,31.5599,-97.1882
+3159,2301979,2022-05-07,Texas,Trent,,1,0,,Trent,TX,Texas,Taylor,32.4882,-100.1233
+10483,2302770,2022-05-15,Texas,Spring,5000 block of Roth Forest Ln,0,2,,Spring,TX,Texas,Harris,30.0613,-95.383
+17172,2303948,2022-05-16,Texas,San Antonio,2000 block of Alston St,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+12180,2306421,2022-05-19,Texas,Houston,9721 Cypresswood Dr,4,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+10467,2307136,2022-05-19,Texas,Bryan,1500 block of Military Dr,0,1,,Bryan,TX,Texas,Brazos,30.665,-96.3807
+17162,2308503,2022-05-21,Texas,Houston,1329 E 35th St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+10455,2310278,2022-05-24,Texas,Uvalde,715 Old Carrizo Rd,22,17,,Uvalde,TX,Texas,Uvalde,29.2152,-99.7782
+5741,2312998,2022-05-26,Texas,Arlington,3100 Lynnwood Dr,0,1,,Arlington,TX,Texas,Tarrant,32.6998,-97.125
+17140,2313056,2022-05-26,Texas,Houston,7000 block of Pavilion Park Dr,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17137,2313687,2022-05-27,Texas,Houston,1099 Cypress Preserve Park Dr,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17133,2314583,2022-05-28,Texas,Fort Worth,6000 block of Stoneybrook Dr,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+5730,2315473,2022-05-28,Texas,Austin,9601 N I-35,0,2,,Austin,TX,Texas,Travis,30.3005,-97.7522
+5722,2316335,2022-05-30,Texas,Port Arthur,4020 FM 365,0,1,,Port Arthur,TX,Texas,Jefferson,29.8554,-93.9264
+17122,2316389,2022-05-30,Texas,Harker Heights,700 block of Edwards Dr,1,1,,Harker Heights,TX,Texas,Bell,31.0572,-97.6446
+5744,2317750,2022-05-26,Texas,Lake Jackson,100 block of Wedgewood St,0,1,,Lake Jackson,TX,Texas,Brazoria,29.0516,-95.4521
+5717,2318328,2022-05-31,Texas,Houston,400 block of Franklin St,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17121,2318440,2022-05-31,Texas,San Antonio (Olmos Park),100 block of Agnes St,1,0,,,,,Bexar,,
+17113,2318471,2022-06-01,Texas,Wichita Falls,Grace St and 23rd St,1,0,,Wichita Falls,TX,Texas,Wichita,33.9072,-98.5291
+10440,2318994,2022-06-01,Texas,Houston,1501 Big Bend Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+17112,2319567,2022-06-02,Texas,Centerville,1696 TX-7 W,6,0,,Centerville,TX,Texas,Leon,31.2583,-95.9794
+17108,2319785,2022-06-03,Texas,Dallas,2322 Scotland Dr,1,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17109,2319888,2022-06-03,Texas,San Antonio,4900 block of War Horse Dr,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17102,2320668,2022-06-04,Texas,Dallas,4900 block of Alton Ave,1,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+5706,2320734,2022-06-03,Texas,Lubbock,14600 block of County Rd 2110,0,1,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+3124,2324518,2022-06-07,Texas,Houston,6000 block of Skyline Dr,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+12161,2325298,2022-06-08,Texas,Beaumont,400 block of E Lucas Dr,1,0,,Beaumont,TX,Texas,Jefferson,30.0849,-94.1451
+5689,2326555,2022-06-09,Texas,Orange,Bessie Heights Rd,0,1,,Orange,TX,Texas,Orange,30.1226,-93.7607
+3120,2326674,2022-06-10,Texas,Houston,14335 Ella Blvd,2,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+10423,2327624,2022-06-10,Texas,Amarillo,SE 10th St and S Cleveland St,0,1,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+5677,2328519,2022-06-12,Texas,San Antonio,5627 Culebra Rd,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17073,2328912,2022-06-12,Texas,Austin,12600 block of Oro Valley Trail,1,3,,Austin,TX,Texas,Travis,30.3005,-97.7522
+12157,2329063,2022-06-12,Texas,Houston,13821 McNair St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+12156,2330010,2022-06-13,Texas,Houston,404 Oxford St,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+3132,2330073,2022-05-31,Texas,Laredo (El Cenizo),400 block of Holguin,1,0,,,,,Webb,,
+5688,2332250,2022-06-09,Texas,Amarillo,,0,1,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+6897,2332525,2022-06-15,Texas,Dallas,3000 block of Kiestridge Dr,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17067,2333384,2022-06-13,Texas,Sherman,221 Archer Cir,1,1,,Sherman,TX,Texas,Grayson,33.6273,-96.6221
+17036,2338016,2022-06-22,Texas,Amarillo,S Jefferson St and SW 7th Ave,1,0,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+17026,2339302,2022-06-24,Texas,Houston,9031 Melody Park Ln,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+17020,2339761,2022-06-25,Texas,Houston,4207 Madden St,2,2,,Houston,TX,Texas,Harris,29.786,-95.3885
+10401,2339956,2022-06-25,Texas,San Antonio,4800 block of Ray Bon Dr,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17029,2340044,2022-06-24,Texas,Fort Worth,3261 Northeast Loop 820,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+10398,2340941,2022-06-26,Texas,Wharton,2500 Junior College Blvd,0,2,,Wharton,TX,Texas,Wharton,29.3177,-96.1022
+77,2340972,2022-06-26,Texas,Dallas,3500 block of Munger Ave,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+17015,2341773,2022-06-26,Texas,Pasadena,3823 Red Bluff Rd,2,1,,Pasadena,TX,Texas,Harris,29.6575,-95.1498
+5632,2343306,2022-06-27,Texas,Jasper,1275 Marvin Hancock Dr,0,1,,Jasper,TX,Texas,Jasper,30.9221,-93.9947
+12144,2343957,2022-06-28,Texas,Fort Worth,100 block of Woodie Way,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+17006,2344793,2022-06-29,Texas,San Antonio,Dora St and San Pedro Ave,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+17003,2345054,2022-06-29,Texas,San Antonio,200 block of Rex St,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16993,2346660,2022-07-01,Texas,Houston,333 W Airtex Blvd,2,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+10381,2347434,2022-07-03,Texas,Houston,13500 block of Northborough Dr,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+5599,2349971,2022-07-05,Texas,Houston,5500 block of Gaston,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+16980,2350414,2022-07-04,Texas,El Paso,7600 block of Franklin Loop,1,0,,El Paso,TX,Texas,El Paso,31.8476,-106.43
+16975,2350482,2022-07-05,Texas,San Antonio,7700 Ingram Rd,1,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16969,2353166,2022-07-06,Texas,Pflugerville,TX-130 and Rowe Ln,1,1,,Pflugerville,TX,Texas,Travis,30.4515,-97.6018
+3091,2353810,2022-07-05,Texas,Garland,1700 block of Apollo Rd,1,0,,Garland,TX,Texas,Dallas,32.91,-96.6304
+5596,2353900,2022-07-06,Texas,Corpus Christi,,0,1,,Corpus Christi,TX,Texas,Nueces,27.7254,-97.3767
+16958,2355300,2022-07-09,Texas,Austin,1400 block of Blakeney Ln,1,1,,Austin,TX,Texas,Travis,30.3005,-97.7522
+10360,2358789,2022-07-12,Texas,San Antonio,2316 S Laredo St,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5563,2361145,2022-07-15,Texas,El Paso,10300 block of Grouse Rd,0,1,,El Paso,TX,Texas,El Paso,31.8476,-106.43
+16930,2361614,2022-07-16,Texas,Houston,2331 Bammelwood Dr,4,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+16931,2362039,2022-07-16,Texas,Dallas,7501 Chesterfield Dr,1,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+1021,2364159,2022-07-19,Texas,Alvin,17700 block of Elizabeth St,0,1,,Alvin,TX,Texas,Brazoria,29.3872,-95.2938
+16911,2365666,2022-07-20,Texas,Lubbock,E 10th St and Ute Ave,2,0,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+10341,2366338,2022-07-21,Texas,San Antonio,800 block of Timilo Dr,0,3,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16901,2367850,2022-07-23,Texas,San Antonio,1800 block of Schley Ave,2,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5531,2368453,2022-07-23,Texas,Houston,10100 block of Homestead Rd,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+10331,2368571,2022-07-24,Texas,Balch Springs,I-20 W and Beltline Rd,0,1,,Balch Springs,TX,Texas,Dallas,32.7194,-96.6151
+3064,2372284,2022-07-28,Texas,San Antonio,2005 Harry Wurzbach Rd,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16874,2372699,2022-07-29,Texas,San Antonio,1707 Pleasanton Rd,2,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5528,2372904,2022-07-24,Texas,Houston,12300 Veterans Memorial Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+5510,2374334,2022-07-29,Texas,Brownsville,,0,1,,Brownsville,TX,Texas,Cameron,25.9975,-97.458
+3063,2374980,2022-07-30,Texas,Dallas,2140 Medical District,1,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+16862,2376147,2022-08-01,Texas,Houston (Cloverleaf),14600 block of Force St,1,0,,,,,Harris,29.786,-95.3885
+10639,2378964,2022-02-15,Texas,Bay City,4900 block of Misty Ln,0,1,,Bay City,TX,Texas,Matagorda,28.9838,-95.9601
+3250,2379620,2022-02-21,Texas,San Angelo,1700 block of N Magdalen St,1,0,,San Angelo,TX,Texas,Tom Green,31.4424,-100.4504
+3166,2379684,2022-05-03,Texas,Porter,21000 block of Rio Valley Ct,1,0,,,,,Montgomery,32.7817,-97.3474
+16842,2380722,2022-08-06,Texas,Fort Worth,9700 block of Legacy Dr,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+3052,2381339,2022-08-06,Texas,Arlington,800 block of E Sanford St,1,0,,Arlington,TX,Texas,Tarrant,32.6998,-97.125
+3051,2381419,2022-08-07,Texas,El Paso,3700 block of N Zaragoza Rd,1,0,,El Paso,TX,Texas,El Paso,31.8476,-106.43
+5496,2382752,2022-08-05,Texas,New Braunfels,555 Creekside Crossing,0,1,,New Braunfels,TX,Texas,Comal,29.6994,-98.1148
+3047,2382854,2022-08-08,Texas,Lometa,100 block of Pvt Rd 2525,1,0,,Lometa,TX,Texas,Lampasas,31.2168,-98.3924
+16831,2383306,2022-08-08,Texas,Longview,600 block of W Avalon Ave,1,0,,Longview,TX,Texas,Gregg,32.5193,-94.7622
+5480,2383576,2022-08-10,Texas,Houston,4100 block of Barberry Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+10298,2384518,2022-08-10,Texas,Dallas,13000 block of C F Hawn Fwy,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+12112,2384523,2022-08-09,Texas,Granbury,100 block of Abbey Park Ct,1,0,,Granbury,TX,Texas,Hood,32.4475,-97.7702
+5473,2384989,2022-08-11,Texas,Corpus Christi,800 block of W Ave D,0,1,,Corpus Christi,TX,Texas,Nueces,27.7254,-97.3767
+10295,2385287,2022-08-11,Texas,Midland,800 block of S Midkiff Rd,0,2,,Midland,TX,Texas,Midland,32.0243,-102.1147
+10296,2385315,2022-08-11,Texas,Wichita Falls,2200 3rd St,0,1,,Wichita Falls,TX,Texas,Wichita,33.9072,-98.5291
+16810,2388697,2022-08-15,Texas,Houston,2920 Brewster St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+5462,2388707,2022-08-15,Texas,Houston,5002 Washington Ave,1,2,,Houston,TX,Texas,Harris,29.786,-95.3885
+5460,2389979,2022-08-16,Texas,San Antonio,500 block of Kirk Pl,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+15889,2391069,2022-08-18,Texas,Houston,Meldrum Ln and Clearwood Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+16797,2392608,2022-08-19,Texas,San Antonio,7700 block of Culebra Rd,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16801,2392989,2022-08-19,Texas,Austin,11900 block of Menchaca Rd,1,0,,Austin,TX,Texas,Travis,30.3005,-97.7522
+15862,2395494,2022-08-21,Texas,Odessa,E Murphy St and Woodson Ave,0,2,,Odessa,TX,Texas,Ector,31.8801,-102.3448
+15854,2395690,2022-08-22,Texas,San Antonio,4600 block of Belinda Lee St,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5431,2397630,2022-08-25,Texas,Houston,9200 block of Veterans Memorial Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+15823,2397731,2022-08-25,Texas,Houston,355 Benmar Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+15836,2397962,2022-08-23,Texas,Port Lavaca,Zimmerman Rd,0,1,,Port Lavaca,TX,Texas,Calhoun,28.6181,-96.6278
+5418,2400009,2022-08-27,Texas,San Antonio,3700 block of Binz-Engleman Rd,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+12100,2400239,2022-08-28,Texas,Fort Worth,8512 Steel Dust Dr,2,1,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+16769,2400731,2022-08-28,Texas,Little Elm,Elk Point Dr and Covemeadow Dr,1,0,,Little Elm,TX,Texas,Denton,33.1858,-96.9295
+10267,2400742,2022-08-28,Texas,Dallas,1200 block of Carbona Dr,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+5415,2400841,2022-08-28,Texas,Houston,2218 Place Rebecca Ln,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+8100,2402514,2022-08-27,Texas,Lubbock,26th St and University Ave,0,1,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+16766,2403764,2022-08-29,Texas,Fort Worth,2000 block of Jacocks Ln,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+10256,2405977,2022-09-03,Texas,San Antonio,8000 Midcrown Dr,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16748,2406392,2022-09-04,Texas,Cleveland,CR 3550 and CR 5708,1,0,,Cleveland,TX,Texas,Liberty,30.3381,-95.0908
+10252,2406575,2022-09-04,Texas,Houston,9701 Meyers Forest Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+5390,2407164,2022-09-04,Texas,Baytown,900 Block of Northwood Dr,0,1,,Baytown,TX,Texas,Harris,29.7587,-94.9671
+10250,2407309,2022-09-05,Texas,San Antonio,7300 block of Potranco Rd,0,3,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16746,2407412,2022-09-05,Texas,Houston,4300 block of Steubner Hill Dr,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+16753,2408135,2022-09-03,Texas,Houston,9330 Main St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+15692,2409845,2022-09-07,Texas,Lufkin,Keltys St and Hosea Dolphus Sr Ave,0,1,,Lufkin,TX,Texas,Angelina,31.3217,-94.7277
+15718,2409904,2022-09-04,Texas,Haltom City,5000 block of Stephanie Dr,0,3,,Haltom City,TX,Texas,Tarrant,32.8176,-97.2707
+15684,2409921,2022-09-08,Texas,Uvalde,401 E Main St,0,3,,Uvalde,TX,Texas,Uvalde,29.2152,-99.7782
+10249,2409928,2022-09-06,Texas,Killeen,5700 block of Chuckwagon Cir,0,1,,Killeen,TX,Texas,Bell,31.0753,-97.7297
+5376,2410413,2022-09-08,Texas,Magnolia,22000 block of Linden Ln,0,1,,Magnolia,TX,Texas,Montgomery,30.2115,-95.742
+5374,2411186,2022-09-09,Texas,Lufkin,Westchester St,0,1,,Lufkin,TX,Texas,Angelina,31.3217,-94.7277
+5378,2411938,2022-09-08,Texas,Baytown,600 block of Massey Tompkins Rd,0,1,,Baytown,TX,Texas,Harris,29.7587,-94.9671
+3004,2412238,2022-09-09,Texas,Fort Worth,6200 block of Hulen Bend Cir,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+5365,2412298,2022-09-11,Texas,San Antonio,3000 block of Owasso St,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+15658,2412308,2022-09-11,Texas,San Antonio,Latigo Dr and Rawhide Ln,1,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5363,2415173,2022-09-12,Texas,San Antonio,1700 Jackson Keller Rd,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16716,2415627,2022-09-14,Texas,Amarillo,2801 N Grand St,1,0,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+15609,2416656,2022-09-16,Texas,Houston,200 block of W Airtex Blvd,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+15598,2417386,2022-09-17,Texas,Katy,21100 block of Bridgemeadows Ln,0,3,,Katy,TX,Texas,Harris,29.7905,-95.8353
+10228,2418107,2022-09-18,Texas,San Antonio,7000 block of Hallie Spirit,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16699,2418115,2022-09-18,Texas,San Antonio,231 Noblewood Dr,2,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+2993,2418295,2022-09-16,Texas,Midland,I-20 and Loop 250,1,0,,Midland,TX,Texas,Midland,32.0243,-102.1147
+15585,2419432,2022-09-19,Texas,Wichita Falls,3200 block of Glenwood Ave,0,1,,Wichita Falls,TX,Texas,Wichita,33.9072,-98.5291
+15582,2419555,2022-09-19,Texas,Amarillo,3301 SE 10th Ave,0,4,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+15576,2419613,2022-09-20,Texas,Tyler,2600 block of N Broadway,0,1,,Tyler,TX,Texas,Smith,32.3184,-95.3062
+10225,2420438,2022-09-20,Texas,Austin,1300 block of E 3rd St,0,1,,Austin,TX,Texas,Travis,30.3005,-97.7522
+5335,2420799,2022-09-21,Texas,San Antonio,6525 Binz-Engleman Rd,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16715,2421291,2022-09-15,Texas,Fort Worth,1800 block of Western Center Blvd,1,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+15573,2421646,2022-09-20,Texas,Poolville,900 block of Loggins Trail,0,2,,,,,Parker,,
+16692,2422088,2022-09-20,Texas,Weatherford,,1,1,,Weatherford,TX,Texas,Parker,32.7536,-97.7723
+15542,2422232,2022-09-23,Texas,Fort Worth,5000 block of Vinson St,0,1,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+5351,2422614,2022-09-16,Texas,Gatesville,3500 block of CR 142,1,0,,Gatesville,TX,Texas,Coryell,31.4445,-97.7317
+16684,2423130,2022-09-24,Texas,Dallas,9600 block of US-175,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+16676,2423717,2022-09-25,Texas,Dallas,2900 block of Al Lipscomb Way,1,0,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+15499,2425641,2022-09-27,Texas,Dallas,9700 block of Old Seagoville Rd,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+2982,2425936,2022-09-27,Texas,San Angelo (Grape Creek),8200 block of Concho Dr W,1,0,,,,,Tom Green,,
+15490,2426583,2022-09-28,Texas,Lewisville,2400 block of Deer Run,0,1,,Lewisville,TX,Texas,Denton,33.0454,-96.9815
+16662,2426627,2022-09-29,Texas,Mc Gregor,901 S Monroe St,5,1,,,,,McLennan,,
+5319,2426981,2022-09-29,Texas,Baytown,2500 block of Massey Tompkins Rd,0,3,,Baytown,TX,Texas,Harris,29.7587,-94.9671
+15474,2427441,2022-09-30,Texas,Tyler,11000 block of Carol Ln,0,1,,Tyler,TX,Texas,Smith,32.3184,-95.3062
+5315,2428964,2022-10-01,Texas,Katy,3300 block of Pimlico Pine Ln,0,1,,Katy,TX,Texas,Harris,29.7905,-95.8353
+15448,2429487,2022-10-02,Texas,San Antonio,11700 Blanco Rd,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+8074,2429973,2022-10-03,Texas,Houston,6900 block of Great Oaks Shadow Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+15426,2430921,2022-10-05,Texas,Dallas,354 E Overton Rd,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+5294,2432536,2022-10-07,Texas,Lubbock,800 block of University Ave,0,1,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+16642,2432893,2022-10-07,Texas,Fort Worth,1200 block of Jessamine St,4,0,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+5295,2433171,2022-10-07,Texas,Bridge City,862 Lapointe St,0,1,,Bridge City,TX,Texas,Orange,30.0298,-93.8406
+16640,2433531,2022-10-08,Texas,Lubbock,2300 block of 143rd St,1,0,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+16635,2433848,2022-10-09,Texas,Killeen,200 block of Evergreen Dr,1,0,,Killeen,TX,Texas,Bell,31.0753,-97.7297
+5283,2436099,2022-10-10,Texas,Dickinson,5100 block of Martinique Calle,0,1,,Dickinson,TX,Texas,Galveston,29.4548,-95.0589
+15367,2436499,2022-10-12,Texas,Marshall,500 block of Tom Woodley Rd,0,1,,Marshall,TX,Texas,Harrison,32.537,-94.3515
+15360,2436865,2022-10-13,Texas,Houston,7200 block of Kings Gate Cir,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+2962,2439503,2022-10-17,Texas,Colony,5151 N Colony Blvd,1,0,,,,,Denton,,
+12066,2440798,2022-10-19,Texas,Lasara,Wells St and 6th St,1,1,,Lasara,TX,Texas,Willacy,26.4635,-97.9087
+5252,2441606,2022-10-20,Texas,Texas City,4000 Bay St N,0,2,,Texas City,TX,Texas,Galveston,29.4154,-94.9682
+15320,2442531,2022-10-20,Texas,Euless,600 block of E Ash Ln,0,1,,Euless,TX,Texas,Tarrant,32.8508,-97.08
+2956,2442581,2022-10-21,Texas,Humble,6019 Velma Ln,1,0,,Humble,TX,Texas,Harris,29.9921,-95.2655
+16594,2442645,2022-10-16,Texas,Houston,18700 block of Imperial Valley Dr,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+16578,2443607,2022-10-22,Texas,San Antonio,2300 block of W Cesar Chavez Blvd,1,0,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+35,2444573,2022-10-24,Texas,Houston,5535 Timber Creek Pl,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+15264,2445425,2022-10-25,Texas,San Antonio,800 block of Alametos St,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+15270,2445782,2022-10-25,Texas,San Antonio,4900 block of Creekmoor Dr,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+15259,2446360,2022-10-26,Texas,Arlington,6317 Treepoint Dr,1,1,,Arlington,TX,Texas,Tarrant,32.6998,-97.125
+16561,2446402,2022-10-26,Texas,Lubbock,4106 124th St,4,0,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+16555,2447687,2022-10-28,Texas,Seguin,3158 I-10,1,1,,Seguin,TX,Texas,Guadalupe,29.5891,-97.9676
+15307,2448181,2022-10-22,Texas,Fort Worth,100 block of Ralph St,0,1,,,,,Tarrant,32.7817,-97.3474
+10174,2448876,2022-10-29,Texas,Beaumont,4300 block of Fonville Ave,0,2,,Beaumont,TX,Texas,Jefferson,30.0849,-94.1451
+15236,2449176,2022-10-29,Texas,Amarillo,6200 Buena Vista St,0,1,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+15213,2449217,2022-10-30,Texas,Corpus Christi,2833 S Padre Island Dr,0,1,,Corpus Christi,TX,Texas,Nueces,27.7254,-97.3767
+16545,2449285,2022-10-29,Texas,College Station,400 block of Harvey Rd,1,0,,College Station,TX,Texas,Brazos,30.5852,-96.2959
+967,2450079,2022-10-30,Texas,San Antonio,,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+15214,2450091,2022-10-30,Texas,San Antonio,16500 block of Nacogdoches Rd,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16574,2450107,2022-10-23,Texas,Austin,8000 block of Tisdale Dr,1,0,,Austin,TX,Texas,Travis,30.3005,-97.7522
+15194,2450412,2022-10-31,Texas,Marion,8200 block of FM 78,0,2,,Marion,TX,Texas,Guadalupe,29.5726,-98.143
+15228,2450428,2022-10-29,Texas,Waco,2600 block of S 12th St,0,2,,Waco,TX,Texas,McLennan,31.5599,-97.1882
+15209,2451233,2022-10-30,Texas,Waxahachie,400 block of N Getzendaner Ave,0,3,,Waxahachie,TX,Texas,Ellis,32.4035,-96.8446
+5221,2451920,2022-11-03,Texas,Tyler,3236 W Gentry Pkwy,0,1,,Tyler,TX,Texas,Smith,32.3184,-95.3062
+15177,2451940,2022-11-02,Texas,El Paso,8700 Padilla Dr,0,1,,El Paso,TX,Texas,El Paso,31.8476,-106.43
+16523,2452306,2022-11-03,Texas,Temple,S 23rd St and W Ave H,1,0,,Temple,TX,Texas,Bell,31.1068,-97.3891
+8059,2452324,2022-10-29,Texas,Lubbock,2500 block of Bates St,0,1,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+2935,2452847,2022-11-02,Texas,Brownsville,,1,0,,Brownsville,TX,Texas,Cameron,25.9975,-97.458
+16548,2453055,2022-10-29,Texas,Houston,11285 Southwest Fwy,2,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+16570,2453098,2022-10-24,Texas,Austin,1500 block of Brandt Dr,1,0,,Austin,TX,Texas,Travis,30.3005,-97.7522
+5211,2453839,2022-11-05,Texas,Houston,9300 block of E Ave O,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+5210,2453885,2022-11-05,Texas,Fort Worth (Forest Hill),4200 Dorsey St,0,1,,,,,Tarrant,29.786,-95.3885
+5212,2454111,2022-11-05,Texas,Fort Worth,4750 Bryant Irvin Rd,0,2,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+15123,2455113,2022-11-07,Texas,Houston,5200 Selinsky Rd,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+5208,2455202,2022-11-07,Texas,Lubbock,19th St and Ave Y,0,1,,Lubbock,TX,Texas,Lubbock,33.5657,-101.8879
+15125,2455710,2022-11-07,Texas,Mcallen (McAllen),4700 block of Jasmine Ave,0,4,,,,,Hidalgo,,
+16498,2457683,2022-11-10,Texas,Arlington,600 block of E Lynn Creek Dr,2,0,,Arlington,TX,Texas,Tarrant,32.6998,-97.125
+15074,2458748,2022-11-13,Texas,Houston,200 N Hagerman St,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+15084,2459005,2022-11-12,Texas,Fort Worth,6655 Calgary Ln,0,4,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+15070,2459103,2022-11-13,Texas,San Antonio,800 block of Rayburn Dr,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+2921,2460130,2022-11-14,Texas,Houston,215 Sunnyside St,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+10144,2460771,2022-11-15,Texas,Houston,1919 S Kirkland Rd,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+16484,2461228,2022-11-15,Texas,Elsa,1004 Live Oak St,1,0,,Elsa,TX,Texas,Hidalgo,26.2978,-97.9936
+15045,2461722,2022-11-16,Texas,Corpus Christi,2120 Hudson St,0,1,,Corpus Christi,TX,Texas,Nueces,27.7254,-97.3767
+15037,2461741,2022-11-17,Texas,San Antonio,4000 block of E Southcross,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+10143,2461883,2022-11-15,Texas,Houston,11655 Briar Forest Dr,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+15033,2461948,2022-11-17,Texas,Houston,11100 block of Ella Blvd,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+15023,2462479,2022-11-18,Texas,San Antonio,2310 SW Military Dr,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+16475,2463193,2022-11-17,Texas,Kemah,1225 Lawrence Rd,2,0,,Kemah,TX,Texas,Galveston,29.5309,-95.0196
+16468,2463572,2022-11-19,Texas,Spring,TX-99 and Spring Stuebner,1,0,,Spring,TX,Texas,Harris,30.0613,-95.383
+5163,2464301,2022-11-20,Texas,Killeen,2600 block of Andover Dr,0,1,,Killeen,TX,Texas,Bell,31.0753,-97.7297
+15004,2464337,2022-11-20,Texas,Cameron,,0,1,,Cameron,TX,Texas,Milam,30.8608,-96.9763
+14995,2464613,2022-11-21,Texas,Wichita Falls,500 block of Astin Ave,0,1,,Wichita Falls,TX,Texas,Wichita,33.9072,-98.5291
+15134,2464843,2022-11-06,Texas,Paris,,0,1,,Paris,TX,Texas,Lamar,33.6688,-95.546
+14989,2465235,2022-11-22,Texas,Texarkana,4624 Elizabeth St,0,1,,Texarkana,TX,Texas,Bowie,33.45,-94.0847
+16453,2467319,2022-11-24,Texas,Houston,11755 Southlake Dr,2,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+14976,2467324,2022-11-23,Texas,Houston,9310 block of Friendly Rd,0,3,,Houston,TX,Texas,Harris,29.786,-95.3885
+14968,2467661,2022-11-24,Texas,Houston,1511 Baggett Ln,2,2,,Houston,TX,Texas,Harris,29.786,-95.3885
+10137,2467696,2022-11-23,Texas,Richmond,Cedar Crescent Ct,0,1,,Richmond,TX,Texas,Fort Bend,29.5824,-95.7563
+14990,2467770,2022-11-22,Texas,Hebbronville,600 block of E Harald St,0,1,,Hebbronville,TX,Texas,Jim Hogg,27.3251,-98.6857
+14973,2467813,2022-11-24,Texas,Galveston,,0,1,,Galveston,TX,Texas,Galveston,29.2484,-94.8913
+16442,2469299,2022-11-26,Texas,Houston,Beverly St and E 11 1/2 St,1,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+14958,2469310,2022-11-26,Texas,San Antonio,6500 block of Spring Hurst Dr,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+10125,2469950,2022-11-28,Texas,Fort Worth,2800 block of Ave I,0,1,,Fort Worth,TX,Texas,Tarrant,32.7817,-97.3474
+2905,2470049,2022-11-28,Texas,Spring Branch,7900 block of Amelia Rd,1,0,,Spring Branch,TX,Texas,Comal,29.8849,-98.4127
+10124,2470178,2022-11-28,Texas,Marshall,2500 E End Blvd S,0,2,,Marshall,TX,Texas,Harrison,32.537,-94.3515
+14929,2470504,2022-11-28,Texas,Arlington,1800 block of N Cooper St,0,1,,Arlington,TX,Texas,Tarrant,32.6998,-97.125
+16434,2471074,2022-11-28,Texas,Grand Prairie,2000 block of Aggie Dr,1,0,,Grand Prairie,TX,Texas,Dallas,32.6871,-97.0208
+16426,2471983,2022-11-30,Texas,Midland,1902 N Midland Dr,1,0,,Midland,TX,Texas,Midland,32.0243,-102.1147
+2913,2472066,2022-11-22,Texas,Greenville,2100 block of Henry St,1,0,,Greenville,TX,Texas,Hunt,33.1116,-96.1099
+5125,2472371,2022-12-01,Texas,Beaumont,4215 N Major Dr,0,1,,Beaumont,TX,Texas,Jefferson,30.0849,-94.1451
+14913,2472622,2022-12-01,Texas,Plantersville,,0,1,,Plantersville,TX,Texas,Grimes,30.3321,-95.8629
+14910,2472635,2022-12-01,Texas,Amarillo,2800 block of SW 28th Ave,0,1,,Amarillo,TX,Texas,Potter,35.1984,-101.8316
+14909,2472710,2022-12-01,Texas,Austin,6400 block of Springdale Rd,0,1,,Austin,TX,Texas,Travis,30.3005,-97.7522
+5116,2473764,2022-12-03,Texas,Houston,4905 Denmark St,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+14893,2473810,2022-12-02,Texas,San Antonio,238 E Hart Ave,0,2,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5115,2473872,2022-12-03,Texas,Palestine,107 7th St,0,1,,Palestine,TX,Texas,Anderson,31.7544,-95.6471
+5114,2473886,2022-12-03,Texas,San Antonio,3100 block of Roosevelt Ave,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+14882,2475239,2022-12-04,Texas,Tyler,11300 Hwy 271,0,1,,Tyler,TX,Texas,Smith,32.3184,-95.3062
+10117,2476535,2022-12-07,Texas,North Richland Hills,6500 block of Jerrell St,0,1,,North Richland Hills,TX,Texas,Tarrant,32.8604,-97.218
+14849,2477506,2022-12-08,Texas,Corpus Christi,Brooks Dr,0,2,,Corpus Christi,TX,Texas,Nueces,27.7254,-97.3767
+14839,2478520,2022-12-09,Texas,Dallas,9300 block of Beck Ave,1,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+2896,2478603,2022-12-10,Texas,Houston,4335 Aldine Mail Route Rd,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+16397,2478963,2022-12-11,Texas,Humble,19800 block of Kenswick Dr,1,1,,Humble,TX,Texas,Harris,29.9921,-95.2655
+14823,2479026,2022-12-11,Texas,San Antonio,2100 block of Texas Ave,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+14819,2479031,2022-12-11,Texas,El Paso,9000 block of Curtis Dr,0,1,,El Paso,TX,Texas,El Paso,31.8476,-106.43
+14811,2480069,2022-12-12,Texas,Dallas,8700 block of Old Homestead Dr,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+5087,2480929,2022-12-14,Texas,San Antonio,800 block of E Highland Ave,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5317,2482507,2022-09-30,Texas,Brownsville,2500 block of Southmost Blvd,0,1,,Brownsville,TX,Texas,Cameron,25.9975,-97.458
+14790,2483108,2022-12-16,Texas,Dallas,2691 John West Rd,0,5,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+14776,2483960,2022-12-18,Texas,San Antonio,Marbach Rd and Military Dr W,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+14755,2484468,2022-12-19,Texas,San Antonio,7200 block of Marbach Rd,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+14762,2484778,2022-12-19,Texas,Odessa,13953 Firewater Trl,1,1,,Odessa,TX,Texas,Ector,31.8801,-102.3448
+14763,2484806,2022-12-19,Texas,Tyler,2400 block of Sherwood St,0,1,,Tyler,TX,Texas,Smith,32.3184,-95.3062
+16371,2485158,2022-12-19,Texas,San Angelo,1300 block of Tres Rios Cir,1,0,,San Angelo,TX,Texas,Tom Green,31.4424,-100.4504
+16382,2485981,2022-12-16,Texas,Houston,12349 Farm to Market 1960 Rd W,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+5078,2485984,2022-12-16,Texas,Cross Plains,24500 block of TX-279,0,2,,Cross Plains,TX,Texas,Callahan,32.1271,-99.1658
+14740,2487040,2022-12-22,Texas,Lufkin,,0,1,,Lufkin,TX,Texas,Angelina,31.3217,-94.7277
+14736,2487097,2022-12-22,Texas,Dallas,11333 Amanda Ln,0,1,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+2878,2488417,2022-12-24,Texas,Grand Prairie,2900 block of Alouette Dr,1,0,,Grand Prairie,TX,Texas,Dallas,32.6871,-97.0208
+16351,2488523,2022-12-26,Texas,Lufkin,120 Kirksey Dr,1,0,,Lufkin,TX,Texas,Angelina,31.3217,-94.7277
+14701,2490150,2022-12-28,Texas,Dallas,9500 block of Scyene Rd,0,6,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+6814,2490421,2022-12-28,Texas,Houston,2118 River Village Dr,1,0,,Houston,TX,Texas,Harris,29.786,-95.3885
+14674,2491768,2022-12-31,Texas,San Antonio,2317 Houston St,0,1,,San Antonio,TX,Texas,Bexar,29.4632,-98.5238
+5042,2493046,2022-12-31,Texas,Dallas,Main St and N Crowdus St,0,2,,Dallas,TX,Texas,Dallas,32.7935,-96.7667
+14678,2493065,2022-12-31,Texas,Houston,5400 block of  S Barker Cypress Rd,0,1,,Houston,TX,Texas,Harris,29.786,-95.3885
+5342,2532464,2022-09-18,Texas,Odessa,6800 block of W 26th St,0,1,,Odessa,TX,Texas,Ector,31.8801,-102.3448
