@@ -9,6 +9,7 @@ The respective lambda functions (python code in Github:lambda name):<br>
   - Air_Pollution_Aggregated.py:Air_Pollution_Aggregated<br>
 
 Every Lambda function has a layer containing: pandas, sqlalchemy==1.4.46, psycopg2-binary,pytz 
+Every lambda function needs credentials to be specified in lambda function environmental variables.
 
 File History_AirPollution.py:
 - requires Texas_Counties_Centroid_Map.csv in S3 bucket for reading coordinates
