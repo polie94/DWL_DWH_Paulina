@@ -1,6 +1,7 @@
 All code authored by: Paulina Zal
 
-To run this pieces of code you need to log in AWS account class 40209, user ...
+To run this pieces of code you need to log in AWS account class 40209, Account ID: 3355-3129-7715 Federated user: voclabs/user2478657=paulina.zal94
+
 
 The respective lambda functions (python code in Github:lambda name):<br>
   - Current_Airpollution.py:Current_Airpollution<br>
