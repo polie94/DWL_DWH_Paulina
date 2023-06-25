@@ -48,9 +48,9 @@ class OpenWeatherMap:
         self.API_KEY = API_KEY
     
     def read_api(self, lat, lon, county):
-      """ read data from API for a given county, the response from API for a given location between start 
-      and end timestamps return a list with JSON for every hour in this time range. This needs to be flattened out. 
-      The data are then stored in a common list of dictionaries"""
+        """ read data from API for a given county, the response from API for a given location between start 
+        and end timestamps return a list with JSON for every hour in this time range. This needs to be flattened out. 
+        The data are then stored in a common list of dictionaries"""
       
         query = {'lat': lat, 'lon': lon, 'appid': self.API_KEY, "start": "1640991600", "end": "1681116257"}
         sleep(1.1)
@@ -74,7 +74,7 @@ class OpenWeatherMap:
         return dictionaries
     
     def call_api(self, location):
-      """ iterate over counties coordinates and get data using the function read_api
+        """ iterate over counties coordinates and get data using the function read_api
           and write data to pandas data frame """
       
         dictionaries = []
