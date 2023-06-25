@@ -15,6 +15,7 @@ File History_AirPollution.py:
 - run locally
 - collect and insert historical data from api into S3 bucket
 - credentials configurated in file config.py ( ###placeholder should be changed with credentials to an S3 bucket)
+- API key for http://api.openweathermap.org/ needs to be created
 
 The order of running code: 
 
