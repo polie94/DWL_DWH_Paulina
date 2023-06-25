@@ -1,6 +1,6 @@
 ### star_dim_date, star_dim_city, star_fact_gun
 authored by: Paulina Zal
-Here the data from data lake are transformed to  DWH built in star schema.
+Here the data from data lake are transformed to  DWH built in star schema. The credentials needs to be specified in lambda function environmental variables.
 All files are run after the processes in the Data Lake are done:
 
 star_dim_date.py
